@@ -507,8 +507,8 @@ h1+p {
     }
 
     .banner-content p {
-        font-size: 12px;
-        line-height: 22px;
+        font-size: 0.7rem;
+        line-height: 15px;
         padding: 5px;
     }
 
@@ -550,8 +550,7 @@ h1+p {
 
     .banner-content p {
         padding: 20px 30px;
-        font-size: 0.8rem;
-        line-height: 10px;
+        font-size: 0.7rem;
     }
 
     button {
