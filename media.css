@@ -1,45 +1,154 @@
-
-
-@media only screen and (max-width: 850px){
-    .nav-bar{
+@media (max-width: 1024px) {
+    .nav-bar {
         font-size: 15px;
     }
-    li{
+
+    li {
         padding: 15px 7px;
     }
-    .nav-btn button{
+
+    .nav-btn button {
         padding: 7px;
         font-size: 0.7em;
     }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .four {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        margin-top: 5px;
+    }
+
+    .banner-box p {
+        line-height: 25px;
+    }
 }
 
-@media only screen and (max-width: 700px){
-    .nav-bar ul{
+@media (max-width: 768px) {
+    .nav-bar ul {
         display: none;
     }
-    .nav-toggle{
+
+    .nav-toggle {
         display: flex;
     }
-}
 
-@media only screen and (max-width: 900px){
-    .banner-box h1 + p{
-        padding: 5px;
+    .banner-box h1 {
+        font-size: 20px;
+    }
+
+    .banner-box p {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 15px;
+    }
+
+    .about-box h3,
+    .project-heading h3,
+    .card-heading h3,
+    .testimony-heading h3 {
+        font-size: 20px;
+    }
+
+    .project {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .card-box {
+        width: 200px;
+        height: 270px;
+        margin: 5px 8px;
+    }
+
+    .card-box .card-img {
+        padding: 40px;
+    }
+
+    .four {
+        flex-direction: row;
     }
 }
 
-@media only screen and (max-width: 700px){
-    .banner-box{
-        height: 80vh;
-    }
-    .banner-box h1 + p{
+@media(max-width: 480px) {
+
+    .banner-box h1+p {
         padding: 1px;
-        font-size: 1em;
+    }
+
+    .banner-box p {
+        font-size: 11px;
+        line-height: 22px;
+        padding: 20px 30px;
+    }
+
+    button {
+        padding: 7px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .about-box h3,
+    .project-heading h3,
+    .card-heading h3,
+    .testimony-heading h3 {
+        font-size: 18px;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, .5fr));
+    }
+
+    .project div {
+        height: 200px;
+    }
+
+    .footer-search input {
+        width: 200px;
+        padding: 7px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
     }
 }
 
-@media only screen and (max-width: 600px){
-    .banner-box{
-        height: 82vh;
+@media (max-width: 320px) {
+    .banner-box h1 {
+        font-size: 15px;
+    }
+
+    .banner-box p {
+        font-size: 10px;
+        line-height: 22px;
+        padding: 20px;
+    }
+
+    button {
+        padding: 7px;
+        margin-top: 15px;
+        font-size: 8px;
+    }
+
+    .project {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 0.5fr));
+    }
+
+    .project div {
+        padding-left: 0;
+        height: 150px;
+    }
+
+    .four {
+        padding: 10px;
     }
 }
