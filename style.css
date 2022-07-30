@@ -478,11 +478,6 @@ h1+p {
         font-size: 0.7em;
     }
 
-    .banner-content p {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
     .four {
         flex-direction: column;
     }
@@ -504,12 +499,6 @@ h1+p {
 
     .banner-box h1 {
         font-size: 20px;
-    }
-
-    .banner-content p {
-        font-size: 0.7rem;
-        line-height: 15px;
-        padding: 5px;
     }
 
     .about-box h3,
@@ -544,13 +533,10 @@ h1+p {
 
 @media(max-width: 480px) {
 
-    .banner-box h1+p {
-        padding: 1px;
-    }
-
-    .banner-content p {
-        padding: 20px 30px;
-        font-size: 0.7rem;
+    h1+p {
+        line-height: 18px;
+        font-size: 1em;
+        padding: 15px 40px;
     }
 
     button {
@@ -591,14 +577,6 @@ h1+p {
 }
 
 @media (max-width: 320px) {
-    .banner-box h1 {
-        font-size: 15px;
-    }
-
-    .banner-box p {
-        line-height: 20px;
-        padding: 20px;
-    }
 
     button {
         padding: 7px;
