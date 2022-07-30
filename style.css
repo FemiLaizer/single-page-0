@@ -172,7 +172,7 @@ h1+p {
 
 .about-text p {
     padding: 20px 10px;
-    font-size: 1.2;
+    font-size: 1.1rem;
     line-height: 25px;
 }
 
@@ -462,4 +462,167 @@ h1+p {
 .line {
     padding: 1px 30px;
     background-color: #bdbdbd;
+}
+
+@media (max-width: 1024px) {
+    .nav-bar {
+        font-size: 15px;
+    }
+
+    li {
+        padding: 15px 7px;
+    }
+
+    .nav-btn button {
+        padding: 7px;
+        font-size: 0.7em;
+    }
+
+    .banner-content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .four {
+        flex-direction: column;
+    }
+
+    .social-icon {
+        margin-top: 5px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .banner-box h1 {
+        font-size: 20px;
+    }
+
+    /* .banner-content p {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 5px;
+    } */
+
+    .about-box h3,
+    .project-heading h3,
+    .card-heading h3,
+    .testimony-heading h3 {
+        font-size: 20px;
+    }
+
+    .project {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .card-box {
+        width: 200px;
+        height: 270px;
+        margin: 5px 8px;
+    }
+
+    .card-box .card-img {
+        padding: 40px;
+    }
+
+    .four {
+        flex-direction: row;
+    }
+}
+
+@media(max-width: 480px) {
+
+    /* .banner-box h1+p {
+        padding: 1px;
+    } */
+
+    /* .banner-content p {
+        padding: 20px 30px;
+        font-size: 1rem;
+        line-height: 40px;
+    } */
+
+    button {
+        padding: 7px;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .about-box h3,
+    .project-heading h3,
+    .card-heading h3,
+    .testimony-heading h3 {
+        font-size: 18px;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, .5fr));
+    }
+
+    .project div {
+        height: 200px;
+    }
+
+    .footer-search input {
+        width: 200px;
+        padding: 7px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+    .nav-btn button {
+        padding: 5px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-box h1 {
+        font-size: 15px;
+    }
+
+    /* .banner-box p {
+        font-size: 10px;
+        line-height: 22px;
+        padding: 20px;
+    } */
+
+    button {
+        padding: 7px;
+        margin-top: 15px;
+        font-size: 8px;
+    }
+
+    .project {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 0.5fr));
+    }
+
+    .project div {
+        padding-left: 0;
+        height: 150px;
+    }
+
+    .four {
+        padding: 10px;
+    }
+
+    .nav-btn button {
+        padding: 0;
+        margin-top: 0;
+    }
 }
