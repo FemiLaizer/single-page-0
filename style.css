@@ -548,11 +548,11 @@ h1+p {
         padding: 1px;
     } */
 
-    /* .banner-content p {
+    .banner-content p {
         padding: 20px 30px;
         font-size: 1rem;
         line-height: 40px;
-    } */
+    }
 
     button {
         padding: 7px;
