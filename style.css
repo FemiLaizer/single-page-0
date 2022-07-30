@@ -506,11 +506,11 @@ h1+p {
         font-size: 20px;
     }
 
-    /* .banner-content p {
+    .banner-content p {
         font-size: 12px;
         line-height: 22px;
         padding: 5px;
-    } */
+    }
 
     .about-box h3,
     .project-heading h3,
@@ -544,9 +544,9 @@ h1+p {
 
 @media(max-width: 480px) {
 
-    /* .banner-box h1+p {
+    .banner-box h1+p {
         padding: 1px;
-    } */
+    }
 
     .banner-content p {
         padding: 20px 30px;
@@ -596,11 +596,11 @@ h1+p {
         font-size: 15px;
     }
 
-    /* .banner-box p {
+    .banner-box p {
         font-size: 10px;
         line-height: 22px;
         padding: 20px;
-    } */
+    }
 
     button {
         padding: 7px;
